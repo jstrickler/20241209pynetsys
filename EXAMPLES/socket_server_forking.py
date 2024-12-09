@@ -1,4 +1,3 @@
-
 import socket
 import os
 
@@ -8,7 +7,7 @@ def setup():
     serv.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     # serv.setblocking(0)
 
-    serv.bind((socket.gethostname(), 7777))
+    serv.bind(('localhost', 7777))
 
     serv.listen(5)
 

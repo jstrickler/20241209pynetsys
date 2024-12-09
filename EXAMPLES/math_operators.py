@@ -11,5 +11,10 @@ print(a % b)   # modulus (remainder)
 
 x = 22
 x += 10  # Same as x = x + 10
-print(f"x: {x}")
+print(f"{x = }")
+print()
 
+print(f"{1 + 2 * 3 / 4 = }")
+print(f"{(1 + 2) * (3 / 4) = }")
+print(f"{(1 + (2 * 3)) / 4 = }")
+print(f"{1 + ((2 * 3) / 4) = }")  # same as example without parens

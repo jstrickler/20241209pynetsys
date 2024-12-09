@@ -1,4 +1,3 @@
-
 knight_info = {}
 
 with open("../DATA/knights.txt") as knights_in:

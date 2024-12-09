@@ -18,7 +18,7 @@ def sample_function(*args):
 {% if cookiecutter.has_scripts == 'y' %}
 # this is a wrapper that is used to create the callable cli version of the function
 def _sample_function_cli():  # name can be anything
-    # access sys.argv as needed (copied from scripts args)
+    # access sys.argv as needed (copied from script's args)
     args = sys.argv[1:]
     print(f"Args to script: {args}")  # diagnostic -- delete
     sample_function(*args)  # call the 'real' function

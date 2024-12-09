@@ -1,4 +1,3 @@
-
 print("Welcome to ticket sales\n")
 
 while True:  # Loop "forever"

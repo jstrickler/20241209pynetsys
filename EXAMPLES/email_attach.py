@@ -1,7 +1,7 @@
 import smtplib
 import os
 from datetime import datetime
-import magic  # module to determine image type (install as python-magic)
+import magic  # module to determine image type (install as python-magic-bin)
 from email.message import EmailMessage  # module for creating email message
 from getpass import getpass  # module for reading password privately
 
@@ -68,6 +68,10 @@ def create_smtp_server():
 def send_message(server, message):
     try:
         server.send_message(message)  # send message
+    except smtplib.SMTPException as err:
+        print(err)
+    else:
+        print("Mail sent.")
     finally:
         server.quit()
 

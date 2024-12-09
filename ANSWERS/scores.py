@@ -1,6 +1,8 @@
 scores_by_student = {}
 
-with open("../DATA/testscores.dat") as scores_in:
+DATA_FILE = "../DATA/test_scores.txt"
+
+with open(DATA_FILE) as scores_in:
 
     for line in scores_in:
         name, score = line.split(":")

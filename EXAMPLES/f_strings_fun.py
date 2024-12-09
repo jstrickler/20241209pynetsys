@@ -18,7 +18,7 @@ print()
 value = 2093
 print(f"value: {value}")
 print(f"value: [{value:10d}]")  # pad with spaces to width 10
-print(f"valule: [{value:010d}]")  # pad with zeroes to width 10
+print(f"value: [{value:010d}]")  # pad with zeroes to width 10
 print(f"value: {value:d} {value:b} {value:x} {value:o}")  # d is decimal, b is binary, o is octal, x is hex
 print(f"value: {value} {value:#b} {value:#x} {value:#o}")  # add prefixes
 print()
@@ -33,7 +33,6 @@ print(f"amount: {amount}")
 print(f"amount: {amount:.2f}")  # round to 2 decimal places
 print(f"amount: {amount:.2%}")  # convert to percent
 print()
-
 
 # fun with functions
 print(f"length of 'name': {len(name)}")  # function call OK

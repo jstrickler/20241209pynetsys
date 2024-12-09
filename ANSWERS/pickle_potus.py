@@ -15,7 +15,7 @@ with open('../DATA/presidents.csv') as president_in:
             "party": row[5],
         }
 
-with open('presidents.pic','wb') as president_out:
+with open('presidents.pkl','wb') as president_out:
     pickle.dump(presidents, president_out)
 
 # note: prior to Python 3.6, presidents will come out in arbitrary order. Use

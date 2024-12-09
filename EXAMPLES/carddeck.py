@@ -2,7 +2,7 @@
 Provide a CardDeck object and some utility methods
 
 Usage:
-from cardceck import CardDeck
+from carddeck import CardDeck
 c = CardDeck("Dealer-Name")
 """
 import random
@@ -11,6 +11,7 @@ from card import Card
 # from card_named_tuple import Card
 # from card_dataclass import Card
 
+CardList = list[Card]
 
 class CardDeck:
     """
@@ -41,7 +42,7 @@ class CardDeck:
                 card = Card(rank, suit)
                 self._cards.append(card)
 
-    def draw(self):
+    def draw(self) -> Card:
         """
         Retrieve next available card from deck.
 
@@ -53,6 +54,15 @@ class CardDeck:
             return self._cards.pop(0) #
         except IndexError:
             print("Sorry, no more cards")
+
+    def draw_n(self, n) -> CardList:
+        """
+        Convenience method to draw N cards
+        """
+        cards: CardList = []
+        for _ in range(n):
+            cards.append(self.draw())
+        return cards
 
     def shuffle(self):
         """
@@ -119,7 +129,7 @@ class CardDeck:
 
     def __eq__(self, other):
         return (
-            self._dealer_name == other.dealer
+            self._dealer_name == other.dealer_name
             and
             self._cards == other._cards
         )

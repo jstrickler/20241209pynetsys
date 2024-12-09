@@ -1,6 +1,6 @@
 import pickle
 
-with open('presidents.pic','rb') as presidents_in:
+with open('presidents.pkl','rb') as presidents_in:
     presidents = pickle.load(presidents_in)
 
 for term_number, president_info in presidents.items():

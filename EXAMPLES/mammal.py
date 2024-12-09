@@ -1,9 +1,8 @@
-
 from animal import Animal
 
 class Mammal(Animal):  # inherit from Animal
     def __init__(self, species, name, sound, gestation):
-        super(Mammal, self).__init__(species, name, sound)
+        super().__init__(species, name, sound)
         self._gestation: int = gestation
 
     @property

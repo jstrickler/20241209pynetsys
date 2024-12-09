@@ -1,4 +1,3 @@
-
 d1 = dict()
 
 airports = {'IAD': 'Dulles', 'SEA': 'Seattle-Tacoma',

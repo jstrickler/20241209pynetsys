@@ -1,4 +1,3 @@
-
 colors = ["red", "blue", "green", "yellow", "brown", "black"]
 months = (
     "Jan", "Feb", "Mar", "Apr", "May", "Jun",

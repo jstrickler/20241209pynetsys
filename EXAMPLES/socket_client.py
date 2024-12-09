@@ -1,10 +1,9 @@
-
 import sys
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # create a new TCP/IP socket
 
-s.connect((socket.gethostname(), 7777))  # connect to server via (host, port) tuple
+s.connect(('localhost', 7777))  # connect to server via (host, port) tuple
 
 if len(sys.argv) > 1:
     msg = sys.argv[1]

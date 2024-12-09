@@ -1,7 +1,9 @@
 scores = {}
 total_of_scores = 0
 
-with open("../DATA/testscores.dat") as f:
+DATA_FILE = "../DATA/test_scores.txt"
+
+with open(DATA_FILE) as f:
     for line in f:
         (name, score) = line.split(":")
         score = int(score)

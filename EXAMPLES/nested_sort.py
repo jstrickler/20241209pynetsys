@@ -1,4 +1,3 @@
-
 computer_people = [
     ('Melinda', 'Gates', 'Gates Foundation', '1964-08-15'),
     ('Steve', 'Jobs', 'Apple', '1955-02-24'),

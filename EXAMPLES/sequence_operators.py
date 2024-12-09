@@ -1,28 +1,18 @@
-
 colors = ["red", "blue", "green", "yellow", "brown", "black"]
 
-months = (
-    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
-)
-
-print("yellow in colors: ", ("yellow" in colors))  # Test for membership in list
+# Test for membership in list
+print("yellow in colors: ", ("yellow" in colors))
 print("pink in colors: ", ("pink" in colors))
 
-print("colors: ", ",".join(colors))  # Concatenate iterable using ", " as delimiter
+# Concatenate iterable of strings using ", " as delimiter
+sep = ", "
+print("colors: ", sep.join(colors))  
 
 del colors[4]  # remove brown
 
-print("removed 'brown':", ",".join(colors))
+print("removed 'brown':", sep.join(colors))
 
-colors.remove('green')  # Remove element by value
-
-print("removed 'green':", ",".join(colors))
-
-sum_of_lists = [True] + [True] + [False]  # Add 3 lists together; combines all elements
-
-print("sum of lists:", sum_of_lists)
-
-product = [True] * 5  # Multiply a list; replicates elements
-
-print("product of lists:", product)
+list_a = [1, 2, 3]
+list_b = [4, 5, 6]
+list_c = list_a + list_b
+print(f"{list_c = }")

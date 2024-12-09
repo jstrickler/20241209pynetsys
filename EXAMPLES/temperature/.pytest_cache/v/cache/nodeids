@@ -1,0 +1,10 @@
+[
+  "tests/test_temperature.py::test_c2f[-40--40]",
+  "tests/test_temperature.py::test_c2f[0-32]",
+  "tests/test_temperature.py::test_c2f[100-212]",
+  "tests/test_temperature.py::test_c2f[37-98.6]",
+  "tests/test_temperature.py::test_f2c[-40--40]",
+  "tests/test_temperature.py::test_f2c[212-100]",
+  "tests/test_temperature.py::test_f2c[32-0]",
+  "tests/test_temperature.py::test_f2c[98.6-37]"
+]

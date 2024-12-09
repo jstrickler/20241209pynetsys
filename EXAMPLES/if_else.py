@@ -1,4 +1,3 @@
-
 raw_temp = input("Enter the temperature: ")
 temp = int(raw_temp)
 

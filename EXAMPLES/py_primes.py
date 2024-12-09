@@ -1,4 +1,3 @@
-
 def get_primes(kmax): # plain-vanilla Python implementation of Sieve of Eratosthenes
     p = [0] * kmax
     result = []
@@ -14,7 +13,3 @@ def get_primes(kmax): # plain-vanilla Python implementation of Sieve of Eratosth
             result.append(n)
         n = n + 1
     return result
-
-
-if __name__ == '__main__':
-    print(get_primes(10000))

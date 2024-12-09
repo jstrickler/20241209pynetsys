@@ -8,3 +8,10 @@ print()
 print('Guido is the ex-"BDFL" of Python')
 print()
 print("""Guido's the ex-"BDFL" of Python""")
+
+query = """
+select * 
+from customers
+where state == "MT"
+order by city
+"""

@@ -1,23 +1,19 @@
+city = 'Orlando' 
+temperature = 85
+hit_count = 5
+average = 3.4563892382
 
-print("Hello, world")
-print("#------------------------")
+print(city, temperature, hit_count, average)
+print()
 
-print("Hello,", end=' ')  # Print space instead of newline at the end
-print("world")
-print("#------------------------")
+print(city, end=' ')  # Print space instead of newline at the end
+print(temperature)
+print()
 
-print("Hello,", end=' ')
-print("world", end='!')  # Print bang instead of newline at end
-print("#------------------------")
+# Item separator is comma + space
+print(city, temperature, hit_count, average, sep=", ")
+print()
 
-x = "Hello"
-y = "world"
-
-print(x, y)  # Item separator is space instead of comma
-print("#------------------------")
-
-print(x, y, sep=', ')  # Item separator is comma + space
-print("#------------------------")
-
-print(x, y, sep='')  # Item separator is empty string
-print("#------------------------")
+# Item separator is empty string
+print(city, temperature, hit_count, average, sep="")
+print()

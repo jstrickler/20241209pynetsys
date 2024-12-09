@@ -1,4 +1,3 @@
-
 """Basic sorting example"""
 
 fruits = ["pomegranate", "cherry", "apricot", "date", "Apple", "lemon", "Kiwi",

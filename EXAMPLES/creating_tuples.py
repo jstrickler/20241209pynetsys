@@ -1,10 +1,7 @@
+person = "Bill", "Gates", "Microsoft", "1955-10-28"
+print(person, "\n")
 
-birth_date = 1901, 5, 5
+print(person[0], person[1], "\n")
 
-server_info = 'Linux', 'RHEL', 5.2, 'Melissa Jones'
-
-latlon = 35.99, -72.390
-
-print("birth_date:", birth_date)
-print("server_info:", server_info)
-print("latlon:", latlon)
+first_name, last_name, product, dob = person
+print(first_name, last_name, "\n")

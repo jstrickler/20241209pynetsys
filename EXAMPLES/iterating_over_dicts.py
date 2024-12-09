@@ -1,5 +1,4 @@
 
-
 airports = {'IAD': 'Dulles', 'SEA': 'Seattle-Tacoma', 'YCC': 'Calgary',
             'RDU': 'Raleigh-Durham', 'LAX': 'Los Angeles'}
 

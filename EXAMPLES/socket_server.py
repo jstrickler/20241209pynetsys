@@ -1,4 +1,3 @@
-
 import socket
 
 
@@ -13,7 +12,7 @@ def setup():
     serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # create server socket
     serv.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)  # reuse a port even if it is busy (usually no consequences from this)
 
-    serv.bind((socket.gethostname(), 7777))  # listen on port 7777
+    serv.bind(('localhost', 7777))  # listen on port 7777
 
     serv.listen(5)  # mark socket as accepting connections; limit listen queue to 5 connections
 
@@ -21,6 +20,8 @@ def setup():
 
 
 def handle_client(cli_sock):
+    print(f"{cli_sock = }")
+    
     request = cli_sock.recv(1024)  # read data (in bytes) from client
 
     reply = request.upper()[::-1]  # reverse client data and make it upper case

@@ -69,7 +69,6 @@
 			"$0"
 		]
 	},
-
 	"print dashes": {
 		"description": "print a line of dashes",
 		"prefix": "pd",

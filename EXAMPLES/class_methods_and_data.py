@@ -1,4 +1,3 @@
-
 class Rabbit:
     LOCATION = "the Cave of Caerbannog"  # class data (not duplicated in instances)
 

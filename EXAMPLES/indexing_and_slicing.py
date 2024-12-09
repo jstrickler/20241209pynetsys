@@ -1,34 +1,23 @@
+fruits = ['pomegranate', 'cherry', 'apricot', 'apple',
+'lemon', 'kiwi', 'orange', 'lime', 'watermelon', 'guava',
+'papaya', 'fig', 'pear', 'banana', 'tamarind', 'persimmon',
+'elderberry', 'peach', 'blueberry', 'lychee', 'grape', 'date' ]
 
-pythons = ["Idle", "Cleese", "Chapman", "Gilliam", "Palin", "Jones"]
+print(f"{fruits = }\n")
 
-characters = "Roger", "Old Woman", "Prince Herbert", "Brother Maynard"
+print(f"{fruits[0] = }\n")  # first element, not a slice
+print(f"{fruits[4] = }\n")  # fifth element, not a slice
+print(f"{fruits[-1] = }\n") # last element
 
-phrase = "She turned me into a newt"
+print(f"{fruits[0:3] = }\n")  # first 3 elements
+print(f"{fruits[2:9] = }\n")  # elements from index 2 to 8
 
-print("pythons:", pythons)
-print("pythons[0]", pythons[0])  # First element
-print("pythons[5]", pythons[5])  # Sixth element
-print("pythons[0:3]", pythons[0:3])  # First 3 elements
-print("pythons[2:]", pythons[2:])  # Third element through the end
-print("pythons[:2]", pythons[:2])  # First 2 elements
-print("pythons[1:-1]", pythons[1:-1])  # Second through next-to-last element
-print("pythons[0::2]", pythons[0::2])  # Every other element, starting with first
-print("pythons[1::2]", pythons[1::2])  # Every other element, starting with second
+start = 5
+print(f"{start = }")
+print(f"{fruits[start:start + 3] = }\n")  # 3 elements starting at 'start'
 
-pythons[3] = "Innes"
-print("pythons:", pythons)
-print()
+print(f"{fruits[10:] = }\n") # index 10 through end
+print(f"{fruits[-5:] = }\n") # last 5 elements (index -5, -4, ...)
 
-print("characters", characters)
-print("characters[2]", characters[2])
-print("characters[1:]", characters[1:])
-
-# characters[2] = "Patsy"  # ERROR -- can't assign to tuple
-print()
-print("phrase", phrase)
-print("phrase[0]", phrase[0])
-print("phrase[-1]", phrase[-1])  # Last element
-print("phrase[21:25]", phrase[21:25])
-print("phrase[21:]", phrase[21:])
-print("phrase[:10]", phrase[:10])
-print("phrase[::2]", phrase[::2])
+print(f"{fruits[1:-1] = }\n")  # all but first and last
+print(f"{fruits[:-10] = }\n")  # all but last 10

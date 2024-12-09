@@ -1,4 +1,3 @@
-
 d1 = dict()  # create new empty dict
 
 airports = {'IAD': 'Dulles', 'SEA': 'Seattle-Tacoma',  # initialize dict with literal key/value pairs (keys can be any string, number or tuple)

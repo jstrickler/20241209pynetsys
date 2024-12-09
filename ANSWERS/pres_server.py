@@ -13,6 +13,7 @@ def handle_client(client):
         (num, field) = raw_request.split()
 
         p = President(num)
+        response = b''
 
         if field == b'FNAME':
             response = p.first_name.encode()

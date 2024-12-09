@@ -1,4 +1,3 @@
-
 print("range(1, 6): ", end=' ')
 for x in range(1, 6):  # Start=1, Stop=6 (1 through 5)
     print(x, end=' ')

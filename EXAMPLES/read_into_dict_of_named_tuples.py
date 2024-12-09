@@ -1,4 +1,3 @@
-
 from collections import namedtuple
 
 knight = namedtuple('knight', 'title color quest comment')

@@ -31,5 +31,7 @@ try:
     smtp.send_message(msg)  # send the message
 except smtplib.SMTPException as err:
     print("Unable to send mail:", err)
+else:
+    print("Mail sent.")
 finally:
     smtp.quit()  # disconnect from SMTP server

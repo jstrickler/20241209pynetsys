@@ -1,4 +1,3 @@
-
 colors = dict(red=5, scarlet=18, blue=1, pink=0, grey=27, yellow=5, green=18)
 
 # sort by key

@@ -35,7 +35,7 @@ if __name__ == "__main__":
     felix = Animal("cat", "Felix", "Meowwwww")
 
     for animal in leo, garfield, felix:
-        print(f"{animal.name} is a {animal.species} --", end=' ')
+        print(f"{animal.name} is species {animal.species} --", end=' ')
         animal.make_sound()
 
     print(animal.count())

@@ -43,6 +43,7 @@ def encode(obj):
 
 
 @encode.register(date)
+@encode.register(datetime)
 def encode_date(date_obj):
     return date_obj.isoformat()
 

@@ -1,4 +1,3 @@
-
 def fun_one():  # no parameters
     print("Hello, world")
 

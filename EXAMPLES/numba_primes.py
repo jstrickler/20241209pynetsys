@@ -1,4 +1,3 @@
-
 import numba
 
 @numba.jit() # All that's needed is to decorator the function -- numba does the rest
@@ -20,4 +19,4 @@ def get_primes(kmax):
 
 if __name__ == '__main__':
     primes_list = get_primes(10000)
-    print(primes_list)
+    print(primes_list[:200])  # show first 200 primes

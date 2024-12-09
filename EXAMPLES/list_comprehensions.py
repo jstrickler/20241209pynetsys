@@ -1,4 +1,3 @@
-
 fruits = ['watermelon', 'apple', 'mango', 'kiwi', 'apricot', 'lemon', 'guava']
 
 ufruits = [fruit.upper() for fruit in fruits]        # Simple transformation of all elements

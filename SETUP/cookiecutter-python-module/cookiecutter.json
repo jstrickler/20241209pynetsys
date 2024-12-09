@@ -4,9 +4,9 @@
     "module_description": "Short Description of the Module",
     "has_scripts": "n",
     "author_name": "Author Name",
-    "author_email": "Author Email",
+    "author_email": "noone@nowhere.com",
     "author_url": "Author URL",
-    "copyright_year": "2023",
+    "copyright_year": "2024",
     "readme_format": ["md", "rst"]
 }
 

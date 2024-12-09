@@ -11,3 +11,4 @@ for num in range(2, limit):
         print(num, end=' ')
         for multiple_of_num in range(2 * num, limit, num):
             flags[multiple_of_num] = False
+    

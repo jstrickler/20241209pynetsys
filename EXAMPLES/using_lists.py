@@ -1,4 +1,4 @@
-cities = ['Portland', 'Pittsburg', 'Peoria']
+cities = ['Portland', 'Pittsburgh', 'Peoria']
 print(f"cities: {cities}\n")
 
 cities.append('Miami')
@@ -13,7 +13,9 @@ more_cities = ["Detroit", "Des Moines"]
 cities.extend(more_cities)
 print(f"cities: {cities}\n")
 
-del cities[3]
+# LIST.append(obj) LIST.insert(idx, obj) LIST.extend(iterable)
+
+del cities[3] 
 print(f"cities: {cities}\n")
 
 cities.remove('Buffalo')
@@ -26,3 +28,5 @@ print(f"cities: {cities}\n")
 city = cities.pop(3)
 print(f"city: {city}")
 print(f"cities: {cities}\n")
+
+# del LIST[idx]  LIST.remove(value) LIST.pop() LIST.pop(idx)    

@@ -1,4 +1,3 @@
-
 class Card:
     def __init__(self, rank, suit):
         self._rank = rank

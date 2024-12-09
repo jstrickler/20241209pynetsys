@@ -43,9 +43,7 @@ class Knight(object):
         :return: The winner
         :rtype: Knight
         """
-        self_score = random.randint(1, 10)
-        opponent_score = random.randint(1, 10)
-        if self_score >= opponent_score:
+        if random.choice([True, False]):
             return self
         else:
             return opponent

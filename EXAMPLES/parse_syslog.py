@@ -1,3 +1,8 @@
+import sys
+if sys.platform == 'win32':
+    print("This script is specific to Mac and Linux")
+    sys.exit(1)
+
 from collections import Counter
 
 from syslogparser import SyslogParser

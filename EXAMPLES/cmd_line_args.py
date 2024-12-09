@@ -1,4 +1,3 @@
-
 import sys   # Import the sys module 
 
 print(sys.argv) # Print all parameters, including script itself

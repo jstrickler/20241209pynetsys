@@ -1,4 +1,3 @@
-
 people = [
     ('Melinda', 'Gates', 'Gates Foundation'),
     ('Steve', 'Jobs', 'Apple'),

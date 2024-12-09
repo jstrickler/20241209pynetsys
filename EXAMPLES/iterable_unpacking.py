@@ -1,4 +1,3 @@
-
 values = ['a', 'b', 'c']
 
 x, y, z = values  # unpack values (which is an iterable) into individual variables

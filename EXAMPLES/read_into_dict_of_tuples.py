@@ -1,4 +1,3 @@
-
 from pprint import pprint
 
 knight_info = {}  # create empty dict

@@ -1,4 +1,3 @@
-
 fruits = ['pomegranate', 'cherry', 'apricot', 'Apple',
 'lemon', 'Kiwi', 'ORANGE', 'lime', 'Watermelon', 'guava', 
 'Papaya', 'FIG', 'pear', 'banana', 'Tamarind', 'Persimmon', 
