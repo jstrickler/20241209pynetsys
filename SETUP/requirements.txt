@@ -1,0 +1,7 @@
+cython
+lxml
+numba
+paramiko
+python-magic
+PyYAML
+requests

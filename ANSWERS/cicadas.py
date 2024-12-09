@@ -1,0 +1,6 @@
+START_YEAR = 1978
+LENGTH_OF_CYCLE = 17
+END_YEAR = 2050
+
+for year in range(START_YEAR, END_YEAR + 1, LENGTH_OF_CYCLE):
+    print(year)
