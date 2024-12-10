@@ -9,5 +9,5 @@ print("j count:", j_count)
 
 print("len:", len(name))
 
-print("position of 'jacob':", name.find('jacob'))
+print("position of 'jacob':", name.lower().find('jacob'))
 

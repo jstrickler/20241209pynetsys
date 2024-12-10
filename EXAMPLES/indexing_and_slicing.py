@@ -8,6 +8,7 @@ print(f"{fruits = }\n")
 print(f"{fruits[0] = }\n")  # first element, not a slice
 print(f"{fruits[4] = }\n")  # fifth element, not a slice
 print(f"{fruits[-1] = }\n") # last element
+print(f"{fruits[-2] = }\n") # last element
 
 print(f"{fruits[0:3] = }\n")  # first 3 elements
 print(f"{fruits[2:9] = }\n")  # elements from index 2 to 8
