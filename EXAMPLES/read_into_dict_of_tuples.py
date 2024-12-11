@@ -7,11 +7,13 @@ with open("../DATA/knights.txt") as knights_in:
         name, title, color, quest, comment = line.rstrip('\n\r').split(":")
         knight_info[name] = title, color, quest, comment  # create new dict element with name as key and a tuple of the other fields as the value
 
-pprint(knight_info)
+pprint(knight_info, sort_dicts=False)
 print()
 
+#   key, value
 for name, info in knight_info.items():
     print(info[0], name)
 
 print()
+print(knight_info['Robin'])
 print(knight_info['Robin'][2])

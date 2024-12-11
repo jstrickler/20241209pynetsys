@@ -1,4 +1,5 @@
-from geometry import *
+from geometry import *  # import all names except _*
+# from other_module import *   BAD IDEA!!
 
 circle = circle_area(8)
 print(f"{circle = }")

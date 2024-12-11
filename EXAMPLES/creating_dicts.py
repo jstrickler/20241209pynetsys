@@ -17,3 +17,4 @@ print(airports['LAX'])
 airports['SLC'] = 'Salt Lake City'  # assign to new key
 airports['LAX'] = 'Lost Angels'  # overwrite existing key
 print(airports['SLC'])
+print(f"{airports = }\n")
