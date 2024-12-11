@@ -1,0 +1,80 @@
+
+pat     "pattern"  "spat" "Intel-compat"  "Don't pat the honey badger"
+
+p.t   'p' + any-char + 't'
+p.v.t 
+
+p[aeiou]t  'p' + any-char-in-set + 't'
+p[^aeiou]t 'p' + any-char-not-in-set + 't'
+
+[0123456789]
+
+[0123456789][0123456789][0123456789]-[0123456789][0123456789]-[0123456789][0123456789][0123456789][0123456789]
+
+[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]
+
+\d\d\d-\d\d-\d\d\d\d
+
+\d  [0-9]
+\s  [ \t\n\r\b\f]
+\w  [a-zA-Z0-9_]
+
+pat 
+paat 
+pa+t  'p' + 'one-or-more' 'a' + 't'  
+pa*t  "pt"  "pat"  "paaaaaaaaaaaaaaaaaaaat"  
+pa?t  "pt" or "pat"
+
+p[aieou]{2}t
+p[aeiou]{1,2}t
+abc\d{3,}.*xyz
+
+.* match any number of any characters
+
+^\d
+
+\.$
+
+\[\d+\]
+
+^\s*\d+\s*$
+
+^\d+$
+
+^\d*$
+
+^ $ \b
+
+\bred\b   bred  numbered   redolent  red
+" red "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

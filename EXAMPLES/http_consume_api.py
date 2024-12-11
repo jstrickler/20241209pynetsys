@@ -19,6 +19,7 @@ def main(args):
     )  # send HTTP request and get HTTP response
 
     if response.status_code == requests.codes.OK:  # 200?
+        # did we get JSON? 
         data = response.json()  # convert JSON content to Python data structure
         for entry in data: # check for results
             if isinstance(entry, dict):

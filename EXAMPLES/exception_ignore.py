@@ -7,3 +7,6 @@ try:
 
 except(TypeError, IOError): # Catch exceptions, and do nothing
     pass
+else:
+    # no errors
+    print(z)
