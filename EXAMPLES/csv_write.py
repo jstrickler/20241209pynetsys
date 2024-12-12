@@ -25,8 +25,8 @@ with open('../TEMP/chi_data.csv', 'w') as chi_out:
     #  On Windows, output line terminator must be set to '\n'.
     #  While it's not needed on Linux/Mac, it doesn't cause any problems,
     #  so this keeps the code portable.
-    wtr = csv.writer(chi_out, lineterminator='\n') # create CSV writer from file object that is opened
-    for data_row in chicago_data:  # iterate over records from file
+    wtr = csv.writer(chi_out, lineterminator='\n', quoting=csv.QUOTE_NONNUMERIC) # create CSV writer from file object that is opened
+    for data_row in chicago_data[1:]:  # iterate over records from file
         data_row[0] = data_row[0].title()  # make first field title case rather than all uppercase
         data_row[-1] = data_row[-1].lstrip('$')  # strip leading $ from last field
         wtr.writerow(data_row) # write one row (of iterables) to output file

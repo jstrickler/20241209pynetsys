@@ -11,7 +11,7 @@ def do_something():
         time.sleep(.5)
 
 def interrupt():
-    time.sleep(10)
+    time.sleep(99)
     print("STOPPING!")
     STOP_TASK.set()
 

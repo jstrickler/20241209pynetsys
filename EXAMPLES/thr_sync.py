@@ -1,4 +1,3 @@
-from functools import partial
 from threading import Thread, Event, Lock
 import time
 

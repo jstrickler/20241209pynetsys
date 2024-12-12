@@ -14,8 +14,8 @@ class SimpleThread(Thread):
         with STDOUT_LOCK:
             print(f"Hello from thread {self._threadnum}")
 
-
 for i in range(16):
     t = SimpleThread(i)  # create the thread
     t.start()  # launch the thread
 
+print("Done.")

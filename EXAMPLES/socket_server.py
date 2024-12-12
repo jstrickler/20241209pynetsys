@@ -1,6 +1,5 @@
 import socket
 
-
 def main():
     serv = setup()
     while True:

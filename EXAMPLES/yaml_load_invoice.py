@@ -1,9 +1,6 @@
 from pprint import pprint
 import yaml
-try:
-    from yaml import CLoader as Loader  # faster!
-except ImportError:
-    from yaml import Loader
+from yaml import Loader
 
 
 with open('../DATA/invoice.yaml') as invoice_in:

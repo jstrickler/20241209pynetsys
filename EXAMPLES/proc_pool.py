@@ -6,9 +6,7 @@ POOL_SIZE = 32  # number of processes
 with open('../DATA/words.txt') as words_in:
     WORDS = [w.strip() for w in words_in]  # read word file into a list, stripping off 
 
-
 random.shuffle(WORDS)  # randomize word list
-
 
 def my_task(word):  # actual task
     return word.upper()

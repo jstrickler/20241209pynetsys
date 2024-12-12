@@ -16,6 +16,7 @@ Hello at {TIMESTAMP}.
 Testing text-only email from Python
 """
 
+# can use jinja2 templates
 HTML_BODY = f"""
 <html>
 <head></head>

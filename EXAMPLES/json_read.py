@@ -8,10 +8,10 @@ with open('../DATA/solar.json') as solar_in:  # open JSON file for reading
     solar = json.load(solar_in)  # load from file object and convert to Python data structure
 
 # uncomment to see raw Python data
-# print('-' * 60)
-# pprint(solar)
-# print('-' * 60)
-# print('\n\n')
+print('-' * 60)
+pprint(solar, sort_dicts=False)
+print('-' * 60)
+print('\n\n')
 
 print(solar['innerplanets'])  # solar is just a Python dictionary
 print('*' * 60)
